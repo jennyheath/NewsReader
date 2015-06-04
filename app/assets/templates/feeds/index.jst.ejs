@@ -1,0 +1,5 @@
+<ul class='feed-list'>
+  <% feeds.each(function (feed) { %>
+      <li><a href="#/feeds/<%=feed.id%>"><%= feed.get('title') %></a></li>
+  <% }); %>
+</ul>
