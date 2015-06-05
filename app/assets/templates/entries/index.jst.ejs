@@ -1,0 +1,6 @@
+<% entries.each(function (entry) { %>
+  <li><a href=<%= entry.escape('link') %>
+    target='_blank'>
+      <%= entry.escape('title') %>
+  </a></li>
+<% }) %>
