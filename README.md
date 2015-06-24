@@ -1,6 +1,5 @@
-# w7d4: [NewsReader][description]
-
-* [Live Demo](http://aa-newsreader.herokuapp.com/)
+##News Reader
+This app allows users to make multiple feeds of news articles (each item links to the article) using RSS feeds submitted by the user. Updates every 30 seconds.
 
 To run locally:
 
@@ -9,7 +8,3 @@ To run locally:
 
 Three feeds with their entries will be created upon running `rake
 db:seed`.
-
-Good luck. Have fun!
-
-[description]: https://github.com/appacademy/backbone-curriculum/blob/master/projects/w7d4-news-reader.md
